@@ -3,7 +3,7 @@ import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import { type TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 import { persistReducer, persistStore } from "redux-persist";
 import storage from "redux-persist/es/storage";
-import user from "./user/auth";
+import user from "./slices/authSlice";
 
 const persistConfig = {
   key: "rootdata",

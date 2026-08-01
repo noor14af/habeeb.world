@@ -1,7 +1,7 @@
 
 
 import ErrorBoundary from './components/ErrorBoundary';
-import Application from './navigation';
+import Application from './routes';
 import { ToastContainer } from "react-toastify";
 
 
